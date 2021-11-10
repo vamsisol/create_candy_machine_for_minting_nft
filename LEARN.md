@@ -118,7 +118,7 @@ It will ask us for a passphrase to be used as a password for the wallet. After e
 
 If successfully created, you will have a prompt in the terminal like this. 
 
-![Wallet Creation](https://github.com/altsam/create_crypto_with_solana_cli/blob/main/learn_assets/1_wallet_creation.png)
+![Wallet Creation](https://raw.githubusercontent.com/vamsisol/create_candy_machine_for_minting_nft/main/learn_assets/1_wallet_creation.png)
 
 With just a single command, you have created a new wallet. Its time to set this wallet as your default one. You can configure to set the keypair and provide the file location which you used initially during wallet creation.
 ```
@@ -127,7 +127,7 @@ solana config set --keypair ~/config/solana/devnet-test.json
 ```
 Successful setup will prompt a message like this:
 
-![Wallet Setup](https://github.com/altsam/create_crypto_with_solana_cli/blob/main/learn_assets/2_wallet_setup.png)
+![Wallet Setup](https://raw.githubusercontent.com/vamsisol/create_candy_machine_for_minting_nft/main/learn_assets/2_wallet_setup.png)
 
 
 The public address of your default wallet will be used to handle deployment, transactions, airdop SOLs,etc. To know the address of the wallet, you can type:
@@ -148,7 +148,7 @@ For devnet users, the command is:
 solana airdrop 1
 ```
 Successful airdrop will be be prompting message like this.
-![Balance and Airdrop](https://github.com/altsam/create_crypto_with_solana_cli/blob/main/learn_assets/3_check_balance.png)
+![Balance and Airdrop](https://raw.githubusercontent.com/vamsisol/create_candy_machine_for_minting_nft/main/learn_assets/3_check_balance.png)
 
 ## NFT METADATA
 
@@ -158,11 +158,11 @@ Every NFT minting on candy machine requires two information:
 
 Now, we will be creating the actual assets for the minting. Create a folder named `assets` in the metaplex directory. This will contain the metadata for NFTs. In this project, we will be creating a NFT of an eye image. 
 
-The image can be downloaded from ![0.png](0.png).
+The image can be downloaded from ![0.png](https://raw.githubusercontent.com/vamsisol/create_candy_machine_for_minting_nft/main/learn_assets/0.png).
 
 We need to follow a sequence for the assets naming, the first one being 0. In this quest, we will be minting just one image thus, 0.png and 0.json will be the two file names. The json file will contain all the metadata related to the NFT.
 
-A referrential json file can be found here: [0.json](https://drive.google.com/file/d/1c-ftqidGZQ8j8E1S27CyViBUMgbxd4MG/view?usp=sharing)
+A referrential json file can be found here: [0.json](https://raw.githubusercontent.com/vamsisol/create_candy_machine_for_minting_nft/main/learn_assets/0.json)
 
 Depending upon the number of NFTs you want to have in the Candy Machine, you will need to have those many pairs of files.( an actual file and a JSON file for metadata).
 
@@ -303,7 +303,7 @@ ts-node js/packages/cli/src/candy-machine-cli.ts upload ./assets --env devnet --
 We specify that we are using the candy-machine cli. The assets folder location is provided in the command as `./assets` . We also specify the environment for minting (`devnet` in this case). For users following this quest on mainnet-beta, the value will be `mainnet-beta	` for the env flag. We will have to provide a wallet address for this process. I have used the wallet we created during this quest (by providing the address of the private key). 
 A successful upload will have the prompt like this:
 
-![Upload NFT Assets](https://github.com/altsam/create_crypto_with_solana_cli/blob/main/learn_assets/4_upload_nft_assets.png)
+![Upload NFT Assets](https://raw.githubusercontent.com/vamsisol/create_candy_machine_for_minting_nft/main/learn_assets/4_upload_nft_assets.png)
 
 The above command sends your asset files to arweave and also registers those files with your candy machine. You are now just a step away from creating your candy machine. 
 
@@ -318,7 +318,7 @@ ts-node js/packages/cli/src/candy-machine-cli.ts create_candy_machine  --env dev
 ```
 This will be creating your candy machine. You will again need to pass the network of creation and the wallet address for the machine. Price of each NFT is mentioned here in the command itself. In the above command, we have stated that the price of the NFT after the `--price` flag (which was uploaded via assets folder) as 1 SOL. Please note down the candy machine pub key and the wallet public key which gets generated. 
 Successful creation of candy machine will prompt a message with the keys as:
-![Create Candy Machine](https://github.com/altsam/create_crypto_with_solana_cli/blob/main/learn_assets/5_create_candy_machine.png)
+![Create Candy Machine](https://raw.githubusercontent.com/vamsisol/create_candy_machine_for_minting_nft/main/learn_assets/5_create_candy_machine.png)
 
 Congratulations, you have succesfully minted your NFT and created your candy machine. 
 
@@ -330,7 +330,7 @@ ts-node js/packages/cli/src/candy-machine-cli.ts update_candy_machine  devnet --
 ```
 Make sure to provide just the network name and not the `--env` flag in the command. Provide the wallet address and then provide the date of asset sale opening after the `--date` flag.
 
-![Upload Candy Machine](https://github.com/altsam/create_crypto_with_solana_cli/blob/main/learn_assets/6_upload_candy_machine.png)
+![Upload Candy Machine](https://raw.githubusercontent.com/vamsisol/create_candy_machine_for_minting_nft/main/learn_assets/6_upload_candy_machine.png)
 
 And, your assets are open for sale. 
 

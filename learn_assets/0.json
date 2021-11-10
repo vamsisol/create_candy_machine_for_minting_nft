@@ -1,0 +1,58 @@
+{
+  "name": "Solana NFT #0",
+  "description": "My First NFT",
+  "image": "image.png",
+  "edition": 100,
+  "date": 1635751947299,
+  "symbol": "",
+  "seller_fee_basis_points": 0,
+  "collection": {
+    "name": "My NFT Collection",
+    "family": "My Family"
+  },
+  "properties": {
+    "files": [
+      {
+        "url": "image.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "PUBLIC ADDRESS OF THE CREATOR",
+        "share": 100
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyeball",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Eye color",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Iris",
+      "value": "Small"
+    },
+    {
+      "trait_type": "Shine",
+      "value": "Shapes"
+    },
+    {
+      "trait_type": "Bottom lid",
+      "value": "Low"
+    },
+    {
+      "trait_type": "Top lid",
+      "value": "Middle"
+    }
+  ]
+}
