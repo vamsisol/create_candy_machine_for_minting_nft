@@ -1,8 +1,8 @@
-# Creating your own Candy Machine for Minting NFTs
+# Creating your own NFT Minting Machine
 
 Welcome to the Candy Machine Quest. In this quest you will learn how to create your own candy machine to mint NFTs on the Solana Network. We don't require you to have any background on Solana development. If you're someone who loves creating NFTs and has a hard time due to the high prices of minting, you are in the right place. 
 
-In this Quest, we'll be building our own Candy Machine which will be used to mint NFTs on the Solana Network without paying the minting price. Minting a bunch of NFTs is really pricy on other networks and thus we will be minting our NFTs on Solana Network. Even then, if we are going to mint a large number of NFTs (say 10000) it will be very costly. Thus, we will be building our own Candy Machine and the price will be paid by the buyer of the NFT.
+In this Quest, we'll be building our own Candy Machine which will be used to mint NFTs on the Solana Network without paying the minting price. Minting a bunch of NFTs is really pricy on other networks and thus we will be minting our NFTs on Solana Network. Even then, if we are going to mint a large number of NFTs (say 10000) it will be very costly. Thus, we will be building our own Candy Machine and the price will be paid by the buyer of the NFT. The candy machine here can be considered analogous to real world candy machine where we fill in the machine with candies (NFTs) beforehand & the customers can buy the candy (NFT) by paying the price set earlier.
 
 By the end of this quest, you will be able to mint your own NFTs on the Solana network with just a bunch of commands.
 
@@ -330,7 +330,7 @@ ts-node js/packages/cli/src/candy-machine-cli.ts update_candy_machine  devnet --
 ```
 Make sure to provide just the network name and not the `--env` flag in the command. Provide the wallet address and then provide the date of asset sale opening after the `--date` flag.
 
-![Upload Candy Machine](https://raw.githubusercontent.com/vamsisol/create_candy_machine_for_minting_nft/main/learn_assets/6_upload_candy_machine.png)
+![Upload Candy Machine](https://raw.githubusercontent.com/vamsisol/create_candy_machine_for_minting_nft/main/learn_assets/6_update_candy_machine.png)
 
 And, your assets are open for sale. 
 
