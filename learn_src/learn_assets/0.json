@@ -1,13 +1,13 @@
 {
-  "name": "Pikachu",
-  "description": "My First Pokemon NFT",
+  "name": "Solana NFT #0",
+  "description": "My First NFT",
   "image": "image.png",
   "edition": 100,
-  "date": 1636746476675,
+  "date": 1635751947299,
   "symbol": "",
-  "seller_fee_basis_points": 250,
+  "seller_fee_basis_points": 0,
   "collection": {
-    "name": "My Pokemon NFT Collection",
+    "name": "My NFT Collection",
     "family": "My Family"
   },
   "properties": {
@@ -20,27 +20,39 @@
     "category": "image",
     "creators": [
       {
-        "address": "AdTvpJVEX2oTkTLMF6TzgShki2buqa1oTNoJsAqixNXx",
+        "address": "PUBLIC ADDRESS OF THE CREATOR",
         "share": 100
       }
     ]
   },
   "attributes": [
     {
-      "trait_type": "Skin",
-      "value": "Yellow"
+      "trait_type": "Background",
+      "value": "Black"
     },
     {
-      "trait_type": "Circles",
+      "trait_type": "Eyeball",
       "value": "Red"
     },
     {
       "trait_type": "Eye color",
-      "value": "Black"
+      "value": "Pink"
     },
     {
-      "trait_type": "Ears",
-      "value": "Pointed"
+      "trait_type": "Iris",
+      "value": "Small"
+    },
+    {
+      "trait_type": "Shine",
+      "value": "Shapes"
+    },
+    {
+      "trait_type": "Bottom lid",
+      "value": "Low"
+    },
+    {
+      "trait_type": "Top lid",
+      "value": "Middle"
     }
   ]
 }
