@@ -338,4 +338,4 @@ Congratulations, on successfully creating your own candy machine using metaplex.
 
 ## WHAT'S NEXT
 
-After learning how to create the candy minting website, we will build our own interface for selling the NFTs. We will be integrating the candy machine created during this quest with the interface. 
+After learning how to create the candy minting website, we will build our own interface for selling the NFTs. We will be integrating the candy machine created during this quest with the interface. Meanwhile, you can proceed to [Layer3](https://alpha.layer3.xyz/task/create-an-nft-candy-machine) and claim your reward NFT for succesfully completing this quest!
