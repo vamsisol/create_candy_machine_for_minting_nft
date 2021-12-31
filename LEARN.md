@@ -7,7 +7,7 @@ In this Quest, we'll be building our own Candy Machine which will be used to min
 By the end of this quest, you will be able to mint your own NFTs on the Solana network with just a bunch of commands.
 
 
-## Introduction
+## Metaplex Introduction
 
 
 Metaplex is a collection of tools, smart contracts, and more designed to make the process of creating and launching NFTs easier. 
