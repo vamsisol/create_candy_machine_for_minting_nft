@@ -13,7 +13,7 @@
   "properties": {
     "files": [
       {
-        "url": "image.png",
+        "uri": "image.png",
         "type": "image/png"
       }
     ],
